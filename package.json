@@ -1,0 +1,34 @@
+{
+  "name": "tplayer",
+  "version": "1.0.0",
+  "description": "play music in console",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "tplayer": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timqian/tplayer.git"
+  },
+  "keywords": [
+    "player",
+    "console",
+    "terminal",
+    "node",
+    "shell",
+    "music"
+  ],
+  "author": "timqian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timqian/tplayer/issues"
+  },
+  "homepage": "https://github.com/timqian/tplayer#readme",
+  "dependencies": {
+    "lame": "^1.2.2",
+    "speaker": "^0.2.6"
+  }
+}
