@@ -1,6 +1,6 @@
 {
   "name": "tplayer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "play music in console",
   "main": "index.js",
   "scripts": {

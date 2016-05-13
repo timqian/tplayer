@@ -4,7 +4,10 @@ const fs = require('fs')
 const lame = require('lame')
 const Speaker = require('speaker')
 
+const decoder = new lame.Decoder()
+const speaker = new Speaker()
+
 fs.createReadStream(process.argv[2])
-  .pipe(new lame.Decoder)
+  .pipe(decoder)
   .on('format', console.log)
-  .pipe(new Speaker);
+  .pipe(speaker)
