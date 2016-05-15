@@ -28,6 +28,8 @@
   },
   "homepage": "https://github.com/timqian/tplayer#readme",
   "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^3.5.5",
     "lame": "^1.2.2",
     "speaker": "^0.2.6"
   }
