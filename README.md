@@ -1,15 +1,11 @@
-# Learn stream by build a music player
+# Learn stream by building a console music player
+
+![](./screenshot.png)
 
 ## Usage:
 
 1. `npm install -g tplayer`
-2. `tplayer dirToYour.mp3`
-
-## test:
-
-1. `git clone thisProject`
-2. `npm install`
-3. `node index.js test/test.mp3`
+2. `tplayer dir_to_your.mp3`
 
 ## Environment
 
@@ -27,3 +23,11 @@
 [blessed-contrib](https://github.com/yaronn/blessed-contrib): console chart lib
 [node-speaker](https://github.com/TooTallNate/node-speaker): play pcm stream
 [node-lame](https://github.com/TooTallNate/node-lame): mp3 stream to pcm stream
+
+## plans
+
+- [ ]: The default stream chunk size is a little big, this makes the bars updating a little slow. According to [the stream doc](https://nodejs.org/api/stream.html#stream_readable_read_size_1), one can make his own read stream with certan size.
+
+## License
+
+MIT

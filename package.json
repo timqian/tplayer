@@ -31,6 +31,7 @@
     "blessed": "^0.1.81",
     "blessed-contrib": "^3.5.5",
     "lame": "^1.2.2",
+    "simple-fft": "git+ssh://git@github.com:richardeoin/nodejs-simple-fft.git",
     "speaker": "^0.2.6"
   }
 }
