@@ -1,4 +1,4 @@
-# A console music player with audio spectrum
+# A terminal music player with audio spectrum
 
 ![](./demo.gif)
 
