@@ -1,6 +1,6 @@
 # A console music player with audio spectrum
 
-![](./screenshot.png)
+![](./demo.gif)
 
 ## Usage:
 
@@ -20,13 +20,13 @@ For now tplayer only works with `node v4.4.4`. It is not working on `v6.x.x`, be
 
 ## dependencies
 
-[blessed-contrib](https://github.com/yaronn/blessed-contrib): console chart lib
-[node-speaker](https://github.com/TooTallNate/node-speaker): play pcm stream
-[node-lame](https://github.com/TooTallNate/node-lame): mp3 stream to pcm stream
+- [blessed-contrib](https://github.com/yaronn/blessed-contrib): console chart lib
+- [node-speaker](https://github.com/TooTallNate/node-speaker): play pcm stream
+- [node-lame](https://github.com/TooTallNate/node-lame): mp3 stream to pcm stream
 
 ## plans
 
-- [ ]: The default stream chunk size is a little big, this makes the bars updating a little slow. According to [the stream doc](https://nodejs.org/api/stream.html#stream_readable_read_size_1), one can make his own read stream with certan size.
+- [ ] The default stream chunk size is a little big, this makes the bars updating a little slow. According to [the stream doc](https://nodejs.org/api/stream.html#stream_readable_read_size_1), one can make his own read stream with certan size.
 
 ## License
 
