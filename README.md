@@ -1,4 +1,4 @@
-# Learn stream by building a console music player
+# A console music player with audio spectrum
 
 ![](./screenshot.png)
 
@@ -9,7 +9,7 @@
 
 ## Environment
 
-`node v4.4.4` (not working on `v6.x.x`, because of [a bug of node-lame](https://github.com/TooTallNate/node-lame/issues/62))
+For now tplayer only works with `node v4.4.4`. It is not working on `v6.x.x`, because of [an issue of node-lame](https://github.com/TooTallNate/node-lame/issues/62)
 
 ## refs:
 
